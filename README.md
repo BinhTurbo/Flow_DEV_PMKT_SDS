@@ -1,4 +1,3 @@
----
 
 ## Phan 10: Huong dan cho Developer - Quy trinh lam viec voi SonarQube Scan
 
@@ -640,5 +639,3 @@ ERROR: Error during SonarScanner execution
 - Tạo nhánh từ `dev` thay vì từ `prod`
 - Pull code từ nhánh người khác
 - Push code không compile được (scan sẽ fail và thông báo cho cả team trên Discord)
-
----
