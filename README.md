@@ -311,13 +311,13 @@ git push -u origin fixbug/[ten_ban]/[ma_bug]
 - Service poll Bitbucket mỗi 5 phút → phát hiện PR mới → queue scan
 - Hoặc bạn có thể trigger ngay nếu không muốn chờ:
   ```bash
-  curl -X POST https://nuts-multi-fundamentals-engineers.trycloudflare.com/trigger \
+  curl -X POST https://binhturbo.me/trigger \
     -H "Content-Type: application/json" \
     -d '{"repo_slug":"200133ebwebbe","pr_id":"2535"}'
   ```
 - Muốn xem danh sách repo_flug thì truy cập vào đây để xem:
   ```bash
-  https://nuts-multi-fundamentals-engineers.trycloudflare.com/health
+  https://binhturbo.me/health
   ```
 - Nếu push thêm commit mới vào PR → service tự scan lại, chỉ commit mới nhất (không scan commit cũ)
 
